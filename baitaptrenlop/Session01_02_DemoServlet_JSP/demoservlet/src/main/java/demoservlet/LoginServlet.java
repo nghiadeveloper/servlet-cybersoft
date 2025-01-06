@@ -14,7 +14,7 @@ public class LoginServlet extends HttpServlet {
 	/**
 	 * Buổi 02: JSP 
 	 * 
-	 * Quy định tham số khi gọi đường dẫn (Truyền và nhận tham số từclient) 
+	 * Quy định tham số khi gọi đường dẫn (Truyền và nhận tham số từ client) 
 	 * 
 	 * - GET: Tham số sẽ truyền trực tiếp trên đường dẫn (url). Có giới hạn 2048 ký tự trên trình duyệt
 	 * 	 Ví dụ: http://localhost?tenthamso=giatri&tenthamso=giatri...

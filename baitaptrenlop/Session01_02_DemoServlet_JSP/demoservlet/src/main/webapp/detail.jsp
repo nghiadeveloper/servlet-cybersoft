@@ -1,4 +1,3 @@
-<%@page import="java.net.PasswordAuthentication"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,14 +7,15 @@
     <title>Detail Page</title>
 </head>
 <body>
-    <%--
+
+	<%--
 		Các ký hiệu trong JSP
 		- Khai báo biến: <%!  %>
 		- Xử lý logic code: <%  %>
 		- Xuất giá trị của biến: <%=  %> 
 	 --%>
-	 
-	 <%-- Lưu ý: File JSP hạn chế viết logic code java --%>
+
+	<%-- Lưu ý: File JSP hạn chế viết logic code java --%>
 	 
 	 <%
 	 	String username = (String) request.getAttribute("giatri1");
