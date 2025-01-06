@@ -11,11 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(name = "demoServlet", urlPatterns = { "/demo" })
 public class DemoServlet extends HttpServlet {
-
-	// Xử lý logic code khi người dùng gọi đường dẫn với phương thức GET
-	// Mặc định nếu người dùng gọi đường dẫn mà không chỉ định được phương thức gọi đường dẫn đó 
-	// thì mặc định là phương thức GET
 	
+	/**
+	 * Buổi 01: Demo Servlet
+	 * - Xử lý logic code khi người dùng gọi đường dẫn với phương thức GET
+	 * - Mặc định nếu người dùng gọi đường dẫn mà không chỉ định được phương thức gọi đường dẫn đó thì mặc định là phương thức GET
+	 */
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter writer = resp.getWriter();
