@@ -138,8 +138,7 @@
                                     <thead>
                                         <tr>
                                             <th>STT</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
+                                            <th>Full Name</th>
                                             <th>Username</th>
                                             <th>Role</th>
                                             <th>#</th>
@@ -152,7 +151,6 @@
                                     	%>
                                         <tr>
                                             <td><%=list.get(i).getId() %></td>
-                                            <td><%=list.get(i).getFullname() %></td>
                                             <td><%=list.get(i).getFullname() %></td>
                                             <td><%=list.get(i).getEmail() %></td>
                                             <td><%=list.get(i).getRole().getName() %></td>
