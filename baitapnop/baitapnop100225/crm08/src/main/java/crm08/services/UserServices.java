@@ -9,11 +9,11 @@ import crm08.repository.RoleRepository;
 public class UserServices {
 
 	private RoleRepository roleRepository = new RoleRepository();
-	
+
 	public List<RoleEntity> getRoles() {
 		List<RoleEntity> roles = roleRepository.findAll();
-		
+
 		return roles;
 	}
-	
+
 }
