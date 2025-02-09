@@ -72,3 +72,6 @@ JOIN roles r ON r.id = u.role_id;
 SELECT *
 FROM users u
 JOIN roles r ON r.id = u.role_id;
+
+--- Roles
+SELECT * FROM roles r
